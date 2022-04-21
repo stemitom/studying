@@ -17,4 +17,9 @@
     - [ ] [Lecture 5 - ML Model Pipelines](https://www.youtube.com/watch?v=OFRnTHSzTkI&list=PLzq3B7Hh4uvbe9xXXEa1EuawIXTDHZpg1&index=5)
     - [ ] [Lecture 6 - PySpark Ecosystem](https://www.youtube.com/watch?v=yhdAgUrTyAs&list=PLzq3B7Hh4uvbe9xXXEa1EuawIXTDHZpg1&index=6)
     - [ ] [Lecture 7 - Streaming Model Deployments](https://www.youtube.com/watch?v=0jWL5Lvp4ic&list=PLzq3B7Hh4uvbe9xXXEa1EuawIXTDHZpg1&index=7)
-    - [ ] [Lecture 8 - Apache Kafka, Spark Streaming and Online Experimentation](https://www.youtube.com/watch?v=Swobw5mCyaY&list=PLzq3B7Hh4uvbe9xXXEa1EuawIXTDHZpg1&index=8)ß
+    - [ ] [Lecture 8 - Apache Kafka, Spark Streaming and Online Experimentation](https://www.youtube.com/watch?v=Swobw5mCyaY&list=PLzq3B7Hh4uvbe9xXXEa1EuawIXTDHZpg1&index=8)
+
+- [ ] [Machine Learning Interviews - Chip Huyen](https://huyenchip.com/ml-interviews-book/)
+    - [ ] [Part 1 - Overview](https://huyenchip.com/ml-interviews-book/contents/part-i.-overview.html)
+    - [ ] [Part 2 - Questions](https://huyenchip.com/ml-interviews-book/contents/part-ii.-questions.html)
+
