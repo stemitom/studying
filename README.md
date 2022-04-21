@@ -7,4 +7,4 @@
 
 
 ### Machine Learning in Production
-- [ ] [Video: Serving BERT Models in Production with TorchServe | PyData Global 2021] (https://www.youtube.com/watch?v=sDGxzkOvxqY)
+- [ ] [Video: Serving BERT Models in Production with TorchServe | PyData Global 2021](https://www.youtube.com/watch?v=sDGxzkOvxqY)
