@@ -23,3 +23,4 @@
     - [ ] [Part 1 - Overview](https://huyenchip.com/ml-interviews-book/contents/part-i.-overview.html)
     - [ ] [Part 2 - Questions](https://huyenchip.com/ml-interviews-book/contents/part-ii.-questions.html)
 
+- [ ] [MLC x FSDL - MLIP Notes](https://turquoise-jester-e23.notion.site/b36e34131fd646e0a28767bd2c415013?v=87be650a6ff44f948b8eb69013d2b656)
