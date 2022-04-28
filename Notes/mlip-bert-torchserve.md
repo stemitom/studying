@@ -25,4 +25,5 @@ Presenters: Adway Dhillon and Nidhin Pattaiyii (Walmart MLEs - Search)
 - Transformers (distil-bert-uncased)
 
 ## Post Training Optimization
+Considering that the size of the models from the transformer trainings are considerably large, the models need to be optimized before using them in production.
 - Quantization: 
