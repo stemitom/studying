@@ -34,3 +34,6 @@ Considering that the size of the models from the transformer trainings are consi
     - Quantization Aware Training
 
 - **Distillation**: Another technique employed in optimization where knowledge(weights and biases) from a big model(teacher) is transferred to a smaller model(student) with little to no significant loss in performance.
+
+## Eager Execution vs Script Mode
+![eager execution vs script mode tabular difference](./eager-vs-script.png "eager execution vs script mode tabular difference")
