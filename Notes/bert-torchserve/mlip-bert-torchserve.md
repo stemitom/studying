@@ -100,5 +100,4 @@ model_store=/home/model-server/model-store
 batch_size=20
 max_batch_delay=2
 async_logging=true
-models=\
 ```
