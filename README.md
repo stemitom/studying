@@ -25,3 +25,7 @@
     - [ ] [Part 2 - Questions](https://huyenchip.com/ml-interviews-book/contents/part-ii.-questions.html)
 
 - [ ] [MLC x FSDL - MLIP Notes](https://turquoise-jester-e23.notion.site/b36e34131fd646e0a28767bd2c415013?v=87be650a6ff44f948b8eb69013d2b656)
+
+## Blockchain
+- [ ] [MIT Blockchain And Money - Prof. Gary Gensler](https://www.youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn)
+    - [ ] [Lecture 1 - Introduction](https://www.youtube.com/watch?v=EH6vE97qIP4&list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn&index=1)
