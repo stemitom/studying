@@ -51,3 +51,10 @@
     - [ ] [Lecture 22 - Trade Finance & Supply Chain](https://www.youtube.com/watch?v=DsSzQfejwMk&list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn&index=21)
     - [ ] [Lecture 23 - Digital ID](https://www.youtube.com/watch?v=W06Le8fw0vU&list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn&index=22)
     - [ ] [Lecture 24 - Conclusion](https://www.youtube.com/watch?v=CJCKTixMb70&list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn&index=23)
+
+- [ ] [Build a Blockchain with Python and Fastapi](https://www.youtube.com/watch?v=G5M4bsxR-7E&t=2243s)
+
+<!-- ## Backend
+- [ ] [Django GraphQL API with Python Graphene]
+- [ ] [Django DRF Ecommerce Inventory with ElasticSearch and Pytest]
+- [ ] [Build a Django REST API with DRF] -->
