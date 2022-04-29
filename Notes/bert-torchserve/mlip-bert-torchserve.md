@@ -81,3 +81,24 @@ class CustomHandler(BaseHandler, ABC):
         data_postprocess = self.data_postprocess(data_inference)
         return data_postprocess
 ```
+
+## Serving 
+Run the follow command to serve models with torchserve
+```bash
+torchserve --ts-config config.properties --start --model-store model_store
+```
+
+The configuration properties in `config.properties` should look like:
+```
+loads_model = all
+inference_address=https://0.0.0.0/8080
+management_address=https://0.0.0.0/8081
+metrics_address=https://0.0.0.0/8082
+number_of_netty_threads=32
+job_queue_size=1000
+model_store=/home/model-server/model-store
+batch_size=20
+max_batch_delay=2
+async_logging=true
+models=\
+```
