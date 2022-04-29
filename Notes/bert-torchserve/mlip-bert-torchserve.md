@@ -37,3 +37,47 @@ Considering that the size of the models from the transformer trainings are consi
 
 ## Eager Execution vs Script Mode
 ![eager execution vs script mode tabular difference](./eager-vs-script.png "eager execution vs script mode tabular difference")
+
+## Deploying Pytorch model using TorchServe
+Benefits of Torchserve:
+- Optimized for serving models
+- Support for CUDA (GPU) environments
+- Multi model serving
+- Model version for A/B Testing
+- Server side batching
+- Support for pre and post processing
+
+Packaging a model can be done with:
+- Torch Model Archiver which packages model code and artifacts into one single file
+
+Walmart uses a Custom Handler for model serving:
+```python
+from abc import ABC
+import os
+import torch
+from ts.torch_handler.base_handler import BaseHandler
+
+class CustomHandler(BaseHandler, ABC):
+    def initialize(self, ctx):
+        model_dir = ctx.system_properties.get("model_dir")
+        serialized_file = ctx.manifest['model']['serializedFile']
+        model_pt_path = os.path.join(model_dir, serialized_file)
+        self.model = torch.jit.load(model_pt_path, map_location=self.device)
+        #...
+    
+    def preprocess(self, requests):
+        #...
+
+    def inference(self, input_batch):
+        #...
+
+    def postprocess(self, inference_output):
+        #...
+
+    def handle(self, data, context):
+        #...
+        data_preprocess = self.preprocess(data)
+        data_inference = self.inference(data_preprocess)
+        data_postprocess = self.data_postprocess(data_inference)
+        return data_postprocess
+```
