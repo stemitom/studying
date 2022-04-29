@@ -4,6 +4,7 @@
 - Machine Learning
 - Backend Engineering
 - DevOps
+- Blockchain
 
 
 ### Machine Learning in Production
