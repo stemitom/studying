@@ -52,9 +52,16 @@
     - [ ] [Lecture 23 - Digital ID](https://www.youtube.com/watch?v=W06Le8fw0vU&list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn&index=22)
     - [ ] [Lecture 24 - Conclusion](https://www.youtube.com/watch?v=CJCKTixMb70&list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn&index=23)
 
-- [ ] [Build a Blockchain with Python and Fastapi](https://www.youtube.com/watch?v=G5M4bsxR-7E&t=2243s)
+- [x] [Build a Blockchain with Python and Fastapi](https://www.youtube.com/watch?v=G5M4bsxR-7E&t=2243s)
 
 <!-- ## Backend
 - [ ] [Django GraphQL API with Python Graphene]
 - [ ] [Django DRF Ecommerce Inventory with ElasticSearch and Pytest]
 - [ ] [Build a Django REST API with DRF] -->
+
+## Devops
+- [ ] [Nginx Mastery](https://www.youtube.com/playlist?list=PLOLrQ9Pn6cawvMA5JjhzoQrnKbYGYQqx1)
+    - [ ] [Nginx Mastery| Getting Started with Nginx | Docker | Docker-Compose](https://www.youtube.com/watch?v=7tGhir27ZJo&list=PLOLrQ9Pn6cawvMA5JjhzoQrnKbYGYQqx1&index=1)
+    - [ ] [Nginx Mastery | Nginx Connection Processing Architecture](https://www.youtube.com/watch?v=siZ1t1w-iNY&list=PLOLrQ9Pn6cawvMA5JjhzoQrnKbYGYQqx1&index=2)
+    - [ ] [Nginx Mastery | Static Files | Multiple Domain | Local DNS Configuration](https://www.youtube.com/watch?v=GlCloo47p_E&list=PLOLrQ9Pn6cawvMA5JjhzoQrnKbYGYQqx1&index=3)
+    - [ ] [Nginx Mastery | Reverse Proxy | Django Development | Docker | Staticfiles](https://www.youtube.com/watch?v=N2t7L_K5LXo&list=PLOLrQ9Pn6cawvMA5JjhzoQrnKbYGYQqx1&index=4)
