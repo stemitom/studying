@@ -13,7 +13,7 @@ An example of workflow is the CI/CD workflow which could go thus:
 - Listen to gh Events (PR Requests, Issue Creation, Contributor Joined, PR Merged)
 - Trigger actions (Sort, Label, Assign, Reproduce) from events with gh-actions
 
-> **Therefore, combinations of actions make a workflow**
+> Therefore, combinations of actions make up a workflow
 
 
 ## Examples
