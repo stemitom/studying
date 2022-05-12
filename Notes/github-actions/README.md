@@ -17,3 +17,19 @@ An example of workflow is the CI/CD workflow which could go thus:
 
 
 ## Examples
+A common workflow pattern for most repository after committing goes:
+- Test
+- Build
+- Push
+- Deploy
+
+## Why not another CI/CD tool?
+- Same tool for OSS management so no 3rd party integration
+- Pipeline is easy
+- Tool for developers (this doesn't require you having an extra devops handling CI/CD integrations)
+
+## Where does this all get executed?
+- The github action runner is executed on github servers and there is no need to setup servers manually to run workflows
+- Each job is run in a fresh virtual environment/server
+
+Learn more on the [Github Action Docs](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
