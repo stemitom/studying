@@ -1,0 +1,14 @@
+# Three Dimensions of Distributed System Scalability Design
+In distributed and parallel computing, scalability is the ability of a system to handle and be flexible with its number of components. That is, a scalable system is one that can dynamically adjust its performance by changing resources and scheduling methods.
+
+- **Hardware Scaling:** Managing workloads by changing hardware resources such as processors, memory, hard disk capacity and network bandwidths.
+- **Software Scaling:** Managing workloads by changing scheduling method and degree of parallelism.
+
+## Main Aspects of System Scalability Research
+- **Metrics:** While measuring the scalability of a system is hard due to the complex nature of such systems, a system is said to have the best scalability if the performance does not change as if the average response time does not change after a change in both workload and computing resources at the same time.
+
+- **Design:** In distributed and parallel systems, resource management mechanism and scheduling efficiency are the basis for allocation management in case of workload changes. A management mechanism with high scheduling efficiency allocates resources in a timely manner making the system react to changes without excess computation power in case of incase of workload increase. In case of workload reduction, there is timely manner of resources recovery for reservation and optimization.
+
+- **Testing:** This can be divided into 2 different categories:
+	- **Code Level Testing:** This tests the effect of each line of code in a parallel program on system scalability.
+	- **System Level Testing:** Combines pre-analysis of the workload and real-time monitoring results to analyze scalability of the entire system.
